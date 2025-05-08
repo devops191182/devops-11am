@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Resources:
+  MyS3Bucket:
+    Type: 'AWS::S3::Bucket'
+    Properties: 
+      BucketName: 'cft-11.30pm-b-demo'  # Replace with your bucket name
+      VersioningConfiguration:
+        Status: 'Enabled'
