@@ -12,6 +12,10 @@ Resources:
           FromPort: '22'
           ToPort: '22'
           CidrIp: '0.0.0.0/0'  # Allow SSH from anywhere
+        - IpProtocol: tcp
+          FromPort: '80'
+          ToPort: '80'
+          CidrIp: '0.0.0.0/0'  # Allow SSH from anywhere
 
   # Create the EC2 Instance
   MyEC2Instance:
