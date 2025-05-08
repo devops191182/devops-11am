@@ -3,6 +3,6 @@ Resources:
   MyS3Bucket:
     Type: 'AWS::S3::Bucket'
     Properties: 
-      BucketName: 'cft-11.30pm-b-demo'  # Replace with your bucket name
+      BucketName: 'cft-11.30pm-b-demo-25'  # Replace with your bucket name
       VersioningConfiguration:
         Status: 'Enabled'
